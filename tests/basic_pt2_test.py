@@ -2,7 +2,7 @@ import sys
 sys.path.insert(0, r'/home/tyler/Desktop/pytesting/src')
 import app
 
-class Basic_Test:
+class BasicTestPartTwo:
     def test_one(self):
         x = 3
         assert app.addOne(x) == 4
@@ -13,4 +13,4 @@ class Basic_Test:
 
     def test_failing(self):
         x = 2
-        assert app.timesTwo(x) == 4
+        assert app.timesTwo(x) == 5
