@@ -3,3 +3,6 @@ def addOne(x):
 
 def timesTwo(x):
     return x * 2
+
+def timesThree(x):
+    return x * 3
